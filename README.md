@@ -24,10 +24,10 @@ Some great resources on running inclusive events include:
 
 ## Contributing
 
-eventure is a collaborative project and we welcome suggestions and contributions. We provide additional techical details in the TECHNICAL_DETAILS.md file. We hope one of the invitations below works for you, but if not, please let us know!
+**eventure is a collaborative project** and we welcome suggestions and contributions. We provide additional techical details in the [TECHNICAL_DETAILS.md](TECHNICAL_DETAILS.md) file. We hope one of the invitations below works for you, but if not, please let us know!
 
 :running: **I'm busy, I only have 1 minute**
-- Follow us on twitter @ _eventure
+- Follow us on twitter [@ _eventure](https://twitter.com/_eventure)
 - Invite members of your communities to play and contribute
 
 :hourglass_flowing_sand: **I've got 5 minutes - tell me what I should**
