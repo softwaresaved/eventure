@@ -2,7 +2,7 @@
 
 Please contribute/comment!
 
-## (COMPLETE) Phase I: First demo ##
+## (COMPLETE) Phase I: First vignette demo ##
 - Create one chapter illustrating the concept and possibilities
   - [x] Story flow
   - [x] Writing
@@ -17,9 +17,9 @@ Please contribute/comment!
   - [x] Code of conduct
   
   
-## Phase II: Second chapter + additional features ##
+## Phase II: Second vignette + additional features ##
 - Create an additional chapter, implement/showcase additional features
-  - [ ] Checklists in workflow
+  - [x] Checklists in workflow
   - [ ] Variables: fire power, money, time
 - Save game progress (see Issue #12)
 - Build community:
@@ -28,8 +28,8 @@ Please contribute/comment!
   - [ ] Build a working group (Gitter/Discourse?)
   
   
-## Phase III: Complete full eventure ##
-- [ ] Complete the original Eventure: a player can have gain full insight into organising an inclusive event through game play
+## Phase III: Complete full chapter ##
+- [ ] Complete a full chapter
 - Expand community:
   - [ ] Get one external Eventure repository (someone cloning this framework to plan their own event)
   - [ ] Continual feedback and discussions (via issues?)
