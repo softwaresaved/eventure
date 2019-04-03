@@ -11,6 +11,11 @@ Eventure is a piece of interactive fiction that takes you, the ~event organiser~
 
 Visit our GitHub repository for more information, including how to contribute: https://github.com/softwaresaved/eventure
 
+Music is from the [Free Music Archive](http://freemusicarchive.org):
+
+- Introduction: Alan Špiljak, Fantasy in my mind
+- Dramatic: Augustin C, Casting a Spell
+- Ending: Augustin C Blacksen Mansion
 
 ## License
 
