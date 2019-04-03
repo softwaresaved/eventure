@@ -26,19 +26,19 @@ Some great resources on running inclusive events include:
 
 eventure is a collaborative project and we welcome suggestions and contributions
 
-### I'm busy, I only have 1 minute
+#### I'm busy, I only have 1 minute
 - Follow us on twitter @ _eventure
 - Invite members of your communities to play and contribute
 
-### I've got 5 minutes - tell me what I should
+#### I've got 5 minutes - tell me what I should
 - Play the first chapter of the game
 - Submit issues/pull requests for the first chapter
 
-### I see the potential... I can work on this for #opensourcefriday
+#### I see the potential... I can work on this for #opensourcefriday
 - Go through the existing vignettes - fix bugs/comment
 - Create your own vignette!
 
-### It's my life's mission to make events more inclusive
+#### It's my life's mission to make events more inclusive
 - Create your own eventure!
 - Keep eventure updated with the latest resources/research
 
