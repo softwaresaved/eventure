@@ -177,19 +177,24 @@ You get an email back from the mother dragon thanking you for the response, but 
 
 &lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="17" name="Childcare Support" tags="" position="574,974" size="100,100">Great! Now time to actually put that plan together. Which of the following will you do?
 
-Provide contact information for a dragon-nanny to take the little lizards to the local museum. Attendees can gang together and pay for it themselves.
+(set:$childcare_room to false)
+(set:$nanny_info to false)
+(set:$privacy_screen to false)
+(set:$stipend to false)
+(set:$daycare to false)
 
-Use a privacy screen in one of your conference rooms so that dragon mothers can have their own space when they need it.
+* (link-repeat: &quot;Child-care room&quot;)[(if: not $childcare_room)[(set:$childcare_room to true)(append: ?selected)[* Child-care room] Offer daycare in one of your conference rooms (make sure you keep enough rooms for your other activities!)]]
+* (link-repeat: &quot;Research nanny info&quot;)[(if: not $nanny_info)[(set:$nanny_info to true)(append: ?selected)[* Nanny info] Provide contact information for a dragon-nanny to take the little lizards to the local museum. Attendees can gang together and pay for it themselves.]]
+* (link-repeat: &quot;Privacy screen&quot;)[(if: not $privacy_screen)[(set:$privacy_screen to true)(append: ?selected)[* Privacy screen] Use a privacy screen in one of your conference rooms so that dragon mothers can have their own space when they need it.]]
+* (link-repeat: &quot;Bursary/Stipend&quot;)[(if: not $stipend)[(set:$stipend to true)(append: ?selected)[* Bursary/Stipend] Give bursaries to all eligible attendees so that they can book their own egg-sitters and dragon-nannies.]]
+* (link-repeat: &quot;Daycare&quot;)[(if: not $daycare)[(set:$daycare to true)(append: ?selected)[* Daycare] Block out one room in your venue for childcare. Offer daycare in one of your conference rooms (make sure you keep enough rooms for your other activities!).]]
 
-Block out one room in your venue for childcare.
+[[Finished with childcare options-&gt;To be continued]] 
 
-Offer daycare in one of your conference rooms (make sure you keep enough rooms for your other activities!).
-
-Give bursaries to all eligible attendees so that they can book their own egg-sitters and dragon-nannies. 
+|selected&gt;[Selected...] 
 
 (set: $gems to $gems - 500)
 
-[[Finished for now-&gt;To be continued]] 
 
 &lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="18" name="To be continued" tags="" position="705,972" size="100,100">You continue to work on the event, delegating tasks to your organising committee.
 
@@ -201,7 +206,7 @@ Fireblowingly, the event progresses without any other issues.
 
 [[Bask in the warmth of a job well done-&gt;End screen]]
 
-&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata></tw-storydata>
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="20" name="I&#39;m done with childcare options" tags="" position="574,1124" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
