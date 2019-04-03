@@ -41,6 +41,7 @@ Some great resources on running inclusive events include:
 
 :tada: **It's my life's mission to make events more inclusive**
 - Create your own eventure!
+- Organise a hackday to build an Eventure vignette
 - Keep eventure updated with the latest resources/research
 
 Please [open a GitHub issue](https://github.com/softwaresaved/eventure/issues) to suggest a new idea, contribute a vignette, or let us know about bugs.
