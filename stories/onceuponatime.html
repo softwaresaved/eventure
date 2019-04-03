@@ -11,27 +11,51 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="onceuponatime" startnode="4" creator="Twine" creator-version="2.2.1" ifid="FFF91F05-8C74-469E-8D08-F5286EC1EBEE" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">html {
-	background-color: #FFFFFF;
+<tw-storydata name="onceuponatime" startnode="4" creator="Twine" creator-version="2.2.1" ifid="FFF91F05-8C74-469E-8D08-F5286EC1EBEE" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">* {
+  font-family: Myriad Web, sans;
 }
 
-html.castle {
-	background-color: Grey;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-html.inn {
-	background-color: LightGreen;
+tw-story[tags~=castle] {
+  background-image: url("https://softwaresaved.github.io/eventure/assets/images/spacious_castle.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
-html.barn {
-	background-color: Brown;
+
+tw-story[tags~=inn] {
+  background-image: url("https://softwaresaved.github.io/eventure/assets/images/inn_between.png
+");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+tw-story[tags~=barn] {
+  background-image: url("https://softwaresaved.github.io/eventure/assets/images/barebones_barn.png
+");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+tw-passage {
+  margin: 0;
+  margin-top: auto;
+  padding: 6pt;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 6pt;
 }
 
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
 
-</script><tw-passagedata pid="1" name="Eternal waiting list" tags="Episode:-Venues" position="199,390" size="100,100">You wait. And you wait. You miss the window for advertising your event, and watch while all your fellow eggs host their events and grow up, leaving you behind. You never gain your wings, rolling alone around your empty campus. 
+</script><tw-passagedata pid="1" name="Eternal waiting list" tags="Episode:-Venues" position="199,390" size="100,100">&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/Baby_Dragon_dead.png&quot; alt=&quot;Dead Dragon&quot; width=512&gt;
+
+You wait. And you wait. You miss the window for advertising your event, and watch while all your fellow eggs host their events and grow up, leaving you behind. You never gain your wings, rolling alone around your empty campus. 
 
 The venue never calls back. You are still waiting. 
 
@@ -64,7 +88,7 @@ You narrow it down to three choices:
 (set: $energy to 100)
 (set: $rating to &quot;Novice&quot;)
 
-(set: $name to &quot;Slibinas&quot;)
+(set: $name to &quot;Myriad&quot;)
 
 Once upon a time, a young egg undertook a quest to become a fully-fledged dragon. 
 
@@ -119,15 +143,11 @@ M. A. Nager
 
 &lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="8" name="Inn-Between" tags="inn" position="239,540" size="100,100">(set: $gems to $gems - 1200)
 
-&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/inn-between.png&quot; alt=&quot;Inn-Between&quot;&gt;
-
 This egg is on a roll! You&#39;re very happy with your choice -- it&#39;s a beautiful building, and the staff are lovely, even though it&#39;s a bit cramped. It wasn&#39;t too expensive in the end, and you still have 60% of your budget left (more money to spend on their delicious dragonfruit).
 
 [[On to the next challenge!-&gt;Arranging Childcare]]
 
 &lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="9" name="Barebones Barn" tags="barn" position="389,540" size="100,100">(set: $gems to $gems - 720)
-
-&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/barebones_barn.png&quot; alt=&quot;Barebones Barn&quot;&gt;
 
 This egg is on a roll! You&#39;re very happy with your choice of venue -- it has lots of space for parallel sessions and you&#39;ve only used a quarter of your budget.
 
@@ -135,18 +155,18 @@ This egg is on a roll! You&#39;re very happy with your choice of venue -- it has
 
 &lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="10" name="Harmony Castle" tags="castle" position="108,545" size="100,100">(set: $gems to $gems - 1500)
 
-&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/spacious_castle.png&quot; alt=&quot;Harmony Castle&quot;&gt;
-
 This egg is on a roll! You&#39;re very happy with your choice, though it does mean you&#39;ve used up half your budget on the venue -- and you haven&#39;t even considered catering yet.
 
 [[On to the next challenge!-&gt;Arranging Childcare]]
 
-&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="11" name="End screen" tags="" position="179,797" size="100,100">Congratulations, $name. You ran an amazing event and graduated into a kick-ass flying, fire-breathing dragon. Your quest is complete. 
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="11" name="End screen" tags="" position="179,797" size="100,100">&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/Full_dragon.png&quot; alt=&quot;Awesome Dragon&quot; width=512&gt;
+
+Congratulations, $name. You ran an amazing event and graduated into a kick-ass flying, fire-breathing dragon. Your quest is complete. 
 
 Total attendees: $attendees
 Remaining gems: $gems
 Remaining fire: $energy
-Awesomeness rating: $rating
+Awesomeness rating: Awesome
 
 
 [[Play again!-&gt;Once Upon A Time]]
