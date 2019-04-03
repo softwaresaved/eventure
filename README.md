@@ -16,13 +16,6 @@ Eventure is a piece of interactive fiction that takes you, the ~event organiser~
 
 Interactive fiction is a very inclusive storytelling medium because it often places the reader themselves in the position of a gender- and race-neutral protagonist, and can be enjoyed at the reader's own place. Plus we just really liked the idea of creating a resource that presented information in a different way from the great guidance already out there.
 
-## Further reading
-
-Some great resources on running inclusive events include:
-- https://alexwlchan.net/ideas-for-inclusive-events/
-- https://mozilla.github.io/learning-networks/clubs/events-women-girls-guide/
-- https://thenewstack.io/how-to-design-inclusion-into-a-tech-event/
-
 ## Contributing
 
 **eventure is a collaborative project** and we welcome suggestions and contributions. We provide additional techical details in the [TECHNICAL_DETAILS.md](TECHNICAL_DETAILS.md) file. We hope one of the invitations below works for you, but if not, please let us know!
@@ -46,6 +39,9 @@ Some great resources on running inclusive events include:
 
 Please [open a GitHub issue](https://github.com/softwaresaved/eventure/issues) to suggest a new idea, contribute a vignette, or let us know about bugs.
 
+## Project roadmap
+For tasks to work on in the near future, please see open Issues. 
+For the bigger picture, please check and contribute to [ROADMAP.md](ROADMAP.md)
 
 ## Acknowledgements
 
@@ -63,3 +59,12 @@ Music is from the [Free Music Archive](http://freemusicarchive.org):
 ## License
 
 This work is licensed under a Creative Commons Attribution 4.0 International license. You are free to share and adapt the material for any purpose, even commercially, as long as you provide attribution (give appropriate credit, provide a link to the license, and indicate if changes were made) in any reasonable manner, but not in any way that suggests the licensor endorses you or your use, and with no additional restrictions.
+
+
+## Further reading
+
+Some great resources on running inclusive events (inspiration for future vignettes) include:
+- https://alexwlchan.net/ideas-for-inclusive-events/
+- https://mozilla.github.io/learning-networks/clubs/events-women-girls-guide/
+- https://thenewstack.io/how-to-design-inclusion-into-a-tech-event/
+
