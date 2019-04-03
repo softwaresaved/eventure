@@ -51,6 +51,12 @@ This project originated as part of the Collaborations Workshop 2019.
 
 It was based on an original idea by Neil Chue Hong (@npch) and was developed by Adrian Castravete (@adrian-castravete), Dav Clark (@davclark), Emily Bell (@emilyjlbell), Emmy Tsang (@emmyft), Lucia Michielin (@Lucia-Michielin) and Neil Chue Hong (@npch).
 
+Music is from the [Free Music Archive](http://freemusicarchive.org):
+
+- Introduction: Alan Špiljak, Fantasy in my mind
+- Dramatic: Augustin C, Casting a Spell 
+- Ending: Augustin C Blacksen Mansion
+
 
 ## License
 
