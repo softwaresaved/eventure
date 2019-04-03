@@ -24,7 +24,7 @@ Some great resources on running inclusive events include:
 
 ## Contributing
 
-eventure is a collaborative project and we welcome suggestions and contributions
+eventure is a collaborative project and we welcome suggestions and contributions. We provide additional techical details in the TECHNICAL_DETAILS.md file. We hope one of the invitations below works for you, but if not, please let us know!
 
 :running: **I'm busy, I only have 1 minute**
 - Follow us on twitter @ _eventure
@@ -44,14 +44,6 @@ eventure is a collaborative project and we welcome suggestions and contributions
 
 Please [open a GitHub issue](https://github.com/softwaresaved/eventure/issues) to suggest a new idea, contribute a vignette, or let us know about bugs.
 
-### How to create your own eventure
-
-1. [Download and run the Twine software](https://twinery.org/) (available for Windows, Mac and Linux) or use the [online version](https://twinery.org/2)
-2. Fork the eventure repository on GitHub
-3. Use Twine's "Import From File" function to import the template.html eventure story file
-4. Edit the template story in Twine and choose "Publish to File" to save your eventure
-5. Upload your eventure .html file to your website, or publish using GitHub Pages
-6. (Optional) Tell us about your eventure! 
 
 ## Acknowledgements
 
