@@ -11,9 +11,25 @@
 
 <tw-story></tw-story>
 
-<tw-storydata name="onceuponatime" startnode="4" creator="Twine" creator-version="2.2.1" ifid="FFF91F05-8C74-469E-8D08-F5286EC1EBEE" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+<tw-storydata name="onceuponatime" startnode="4" creator="Twine" creator-version="2.2.1" ifid="FFF91F05-8C74-469E-8D08-F5286EC1EBEE" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">html {
+	background-color: #FFFFFF;
+}
+
+html.castle {
+	background-color: Grey;
+}
+
+html.inn {
+	background-color: LightGreen;
+}
+
+html.barn {
+	background-color: Brown;
+}
+
 
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
 
 </script><tw-passagedata pid="1" name="Eternal waiting list" tags="Episode:-Venues" position="199,390" size="100,100">You wait. And you wait. You miss the window for advertising your event, and watch while all your fellow eggs host their events and grow up, leaving you behind. You never gain your wings, rolling alone around your empty campus. 
 
@@ -43,6 +59,10 @@ You narrow it down to three choices:
 [[Barebones Barn. It’s cheap and there’s plenty of space -- take my money.-&gt;Barebones Barn]] 
 
 &lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="3" name="Creating an accomodation list" tags="" position="347,702" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="Once Upon A Time" tags="" position="18,6" size="100,100">&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/once_upon_a_time.png&quot; alt=&quot;Once Upon A Time&quot;&gt;
+
+(set: $gems to 0)
+(set: $energy to 100)
+(set: $rating to &quot;Novice&quot;)
 
 (set: $name to &quot;Slibinas&quot;)
 
@@ -97,26 +117,91 @@ M. A. Nager
 [[Join the waiting list - this is the only venue that will work for you-&gt;Eternal waiting list]]
 [[Say thanks but no thanks, and go back to choosing venues-&gt;Choosing a venue]]
 
-&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="8" name="Inn-Between" tags="Episode:-Venue" position="239,540" size="100,100">(set: $gems to $gems - 1200)
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="8" name="Inn-Between" tags="inn" position="239,540" size="100,100">(set: $gems to $gems - 1200)
+
+&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/inn-between.png&quot; alt=&quot;Inn-Between&quot;&gt;
 
 This egg is on a roll! You&#39;re very happy with your choice -- it&#39;s a beautiful building, and the staff are lovely, even though it&#39;s a bit cramped. It wasn&#39;t too expensive in the end, and you still have 60% of your budget left (more money to spend on their delicious dragonfruit).
 
-[[Go to end screen-&gt;End screen]]</tw-passagedata><tw-passagedata pid="9" name="Barebones Barn" tags="Episode:-Venue" position="389,540" size="100,100">(set: $gems to $gems - 720)
+[[On to the next challenge!-&gt;Arranging Childcare]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="9" name="Barebones Barn" tags="barn" position="389,540" size="100,100">(set: $gems to $gems - 720)
+
+&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/barebones_barn.png&quot; alt=&quot;Barebones Barn&quot;&gt;
 
 This egg is on a roll! You&#39;re very happy with your choice of venue -- it has lots of space for parallel sessions and you&#39;ve only used a quarter of your budget.
 
-[[Go to end screen-&gt;End screen]]</tw-passagedata><tw-passagedata pid="10" name="Harmony Castle" tags="Episode:-Venue" position="108,545" size="100,100">(set: $gems to $gems - 1500)
+[[On to the next challenge!-&gt;Arranging Childcare]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="10" name="Harmony Castle" tags="castle" position="108,545" size="100,100">(set: $gems to $gems - 1500)
+
+&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/spacious_castle.png&quot; alt=&quot;Harmony Castle&quot;&gt;
 
 This egg is on a roll! You&#39;re very happy with your choice, though it does mean you&#39;ve used up half your budget on the venue -- and you haven&#39;t even considered catering yet.
 
-[[Go to end screen-&gt;End screen]]</tw-passagedata><tw-passagedata pid="11" name="End screen" tags="" position="179,797" size="100,100">Congratulations, $name. You ran an amazing event!
+[[On to the next challenge!-&gt;Arranging Childcare]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="11" name="End screen" tags="" position="179,797" size="100,100">Congratulations, $name. You ran an amazing event and graduated into a kick-ass flying, fire-breathing dragon. Your quest is complete. 
 
 Total attendees: $attendees
 Remaining gems: $gems
+Remaining fire: $energy
+Awesomeness rating: $rating
+
 
 [[Play again!-&gt;Once Upon A Time]]
 
-&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/ending.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="12" name="Arranging Childcare" tags="Episode:-Childcare" position="424,824" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/ending.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="12" name="Arranging Childcare" tags="" position="424,824" size="100,100">A mother dragon sends you a quick fireball on the social media platform Behemoth to ask if you have any childcare arrangements in place for your conference. 
+
+[[Ignore her -- you can’t afford to put childcare arrangements in place, and you don’t want to risk her setting the whole place on fire (literally).-&gt;Childcare Ignore]]
+
+[[Respond and politely tell her that you won’t have any support on offer, and suggest she gets an egg-sitter.-&gt;Childcare Refuse]]
+
+[[Tell her that you’re putting a plan in place...-&gt;Childcare Support]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="13" name="Footer" tags="footer" position="595,200" size="100,100">&lt;!--
+Gems: $gems - Dragonfire: $energy% - Gold Stars: $rating
+--&gt;</tw-passagedata><tw-passagedata pid="14" name="Header" tags="header" position="459,200" size="100,100">&lt;!--
+Gems: $gems - Dragonfire: $energy% - Gold Stars: $rating
+--&gt;</tw-passagedata><tw-passagedata pid="15" name="Childcare Ignore" tags="" position="274,974" size="100,100">(set: $attendees to $attendees - 10)
+
+Two days later, you see that Behemoth is aflame with comments about how your event doesn&#39;t have childcare. Several dragons and gryphons post to say they&#39;ll be boycotting your event.
+
+[[Gather in your wings and keep going-&gt;To be continued]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="16" name="Childcare Refuse" tags="" position="424,974" size="100,100">(set: $attendees to $attendees - 1)
+
+You get an email back from the mother dragon thanking you for the response, but unfortunately she won&#39;t be able attend as she&#39;s unable to arrange childcare.
+
+[[Claw onwards-&gt;To be continued]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="17" name="Childcare Support" tags="" position="574,974" size="100,100">Great! Now time to actually put that plan together. Which of the following will you do?
+
+Provide contact information for a dragon-nanny to take the little lizards to the local museum. Attendees can gang together and pay for it themselves.
+
+Use a privacy screen in one of your conference rooms so that dragon mothers can have their own space when they need it.
+
+Block out one room in your venue for childcare.
+
+Offer daycare in one of your conference rooms (make sure you keep enough rooms for your other activities!).
+
+Give bursaries to all eligible attendees so that they can book their own egg-sitters and dragon-nannies. 
+
+(set: $gems to $gems - 500)
+
+[[Finished for now-&gt;To be continued]] 
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="18" name="To be continued" tags="" position="705,972" size="100,100">You continue to work on the event, delegating tasks to your organising committee.
+
+[[It&#39;s the Day of the Event-&gt;Day Of The Event]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/introduction.mp3&quot; autoplay&gt;</tw-passagedata><tw-passagedata pid="19" name="Day Of The Event" tags="" position="821,864" size="100,100">It&#39;s the day of the event!
+
+Fireblowingly, the event progresses without any other issues.
+
+[[Bask in the warmth of a job well done-&gt;End screen]]
+
+&lt;audio src=&quot;https://softwaresaved.github.io/eventure/assets/music/dramatic.mp3&quot; autoplay&gt;</tw-passagedata></tw-storydata>
 
 <script title="Twine engine code" data-main="harlowe">"use strict";function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}var _slicedToArray=function(){function e(e,t){var n=[],r=!0,i=!1,o=void 0;try{for(var a,s=e[Symbol.iterator]();!(r=(a=s.next()).done)&&(n.push(a.value),!t||n.length!==t);r=!0);}catch(e){i=!0,o=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw o}}return n}return function(t,n){if(Array.isArray(t))return t;if(Symbol.iterator in Object(t))return e(t,n);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};!function(){/**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
