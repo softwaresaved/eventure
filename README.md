@@ -24,7 +24,7 @@ Interactive fiction is a very inclusive storytelling medium because it often pla
 - Follow us on twitter [@ _eventure](https://twitter.com/_eventure)
 - Invite members of your communities to play and contribute
 
-:hourglass_flowing_sand: **I've got 5 minutes - tell me what I should**
+:hourglass_flowing_sand: **I've got 5 minutes - tell me what I should do**
 - Play the first chapter of the game
 - Submit issues/pull requests for the first chapter
 
