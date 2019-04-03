@@ -7,15 +7,9 @@ Eventure is a piece of interactive fiction that takes you, the ~event organiser~
 **Our first in-process eventure is live at [Once Upon A Time](./stories/onceuponatime.html).**
 
 
-## Acknowledgements
+## Further Information
 
-This project originated as part of the Collaborations Workshop 2019.
-
-It was based on an original idea by Neil Chue Hong (@npch) and was developed by Adrian Castravete (@adrian-castravete), Dav Clark (@davclark), Emily Bell (@emilyjlbell), Emmy Tsang (@emmyft), Lucia Michielin (@Lucia-Michielin) and Neil Chue Hong (@npch).
-
-
-## Contributing
-
+Visit our GitHub repository for more information, including how to contribute: https://github.com/softwaresaved/eventure
 
 
 ## License
