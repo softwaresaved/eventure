@@ -1,0 +1,89 @@
+<tw-storydata name="onceuponatime" startnode="4" creator="Twine" creator-version="2.2.1" ifid="FFF91F05-8C74-469E-8D08-F5286EC1EBEE" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+</script><tw-passagedata pid="1" name="Eternal waiting list" tags="" position="199,390" size="100,100">You wait. And you wait. You miss the window for advertising your event, and watch while all your fellow eggs host their events and grow up, leaving you behind. You never gain your wings, rolling alone around your empty campus. 
+
+The venue never calls back. You are still waiting. 
+
+[[Better luck next year-&gt;Once Upon A Time]]</tw-passagedata><tw-passagedata pid="2" name="Choosing a venue" tags="" position="349,390" size="100,100">Your journey takes you far and wide, from one side of campus to the other. After taking a minute to rest your tired eggshell, you narrow your choice down to three options:
+
+You narrow it down to three choices:
+
+[
+&lt;span style=&quot;font-size: 50%&quot;&gt;
+&lt;table&gt;\
+&lt;tr&gt;&lt;th&gt;Building&lt;/th&gt;&lt;th&gt;Car Parking Adjacent&lt;/th&gt;&lt;th&gt;Wheelchair Access&lt;/th&gt;&lt;th&gt;Automated Doors&lt;/th&gt;&lt;th&gt;hearing Loops&lt;/th&gt;&lt;th&gt;No. of Bathrooms&lt;/th&gt;&lt;th&gt;No. of available rooms&lt;/th&gt;&lt;/tr&gt;\
+&lt;tr&gt;&lt;td&gt;Harmony Castle&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;\
+&lt;tr&gt;&lt;td&gt;Inn-Between&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;\
+&lt;tr&gt;&lt;td&gt;Barebones Barn&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;No&lt;/td&gt;&lt;td&gt;Yes&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;/tr&gt;\
+&lt;/table&gt;
+&lt;/span&gt;
+]
+
+[[Harmony Castle. Sure it’s expensive, but it’s accessible and has room for all of the eggs.-&gt;Harmony Castle]] 
+
+[[Inn-Between. Smaller and cheaper but with some good accessibility features.-&gt;Inn-Between]]
+
+[[Barebones Barn. It’s cheap and there’s plenty of space -- take my money.-&gt;Barebones Barn]] </tw-passagedata><tw-passagedata pid="3" name="Creating an accomodation list" tags="" position="347,702" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="Once Upon A Time" tags="" position="18,6" size="100,100">&lt;img src=&quot;https://softwaresaved.github.io/eventure/assets/images/once_upon_a_time.png&quot; alt=&quot;Once Upon A Time&quot;&gt;
+
+(set: $name to &quot;Slibinas&quot;)
+
+Once upon a time, a young egg undertook a quest to become a fully-fledged dragon. 
+
+To achieve this goal, there’s just one quest to complete. And that quest is... to run a successful inclusive event.
+
+The challenge is set. What choices will you make, warrior?
+
+[[Go big. 1,000 attendees, 20,000 gems budget-&gt;Event Redirection]]
+[[Dragon-scale it back: 200 attendees, 10,000 gems budget-&gt;Event Redirection]]
+[[Stay in the nest: 50 attendees, 3,000 gems budget-&gt;Initial Preparations]]
+
+</tw-passagedata><tw-passagedata pid="5" name="Event Redirection" tags="" position="0,156" size="100,100">The head dragon decrees... this is too ambitious! For now, keep it small. 
+
+[[Let&#39;s get started!-&gt;Initial Preparations]] </tw-passagedata><tw-passagedata pid="6" name="Initial Preparations" tags="" position="130,156" size="100,100">(set: $attendees to 50)
+(set: $gems to 3000)
+
+First, the venue. A fellow egg tells you about the ideal building to meet all your accessibility requirements. Perfect! You call them and follow up by ~~email~~ letter to seal the deal. 
+
+(font: &quot;Courier New&quot;)[
+
+Dear Facilities Management,
+
+I am writing to confirm my booking for the Lizard Building for our conference for 50 people. We would like to reserve the lecture theatre and seminar rooms 3 and 4. We’re very excited to host our event with you -- thanks for all your help with this!
+
+Yours faithfully,
+
+$name
+]
+
+[[Send ~~email~~ letter-&gt;Response from star venue]] </tw-passagedata><tw-passagedata pid="7" name="Response from star venue" tags="" position="329,151" size="100,100">The response is swift, and crushing.
+
+
+(font: &quot;Courier New&quot;)[
+
+Dear $name,
+
+Thank you for your email. We’re so sorry for the mix-up, but we have triple-booked the venue for the date you requested. Unfortunately we’re now fully booked for the next hundred years. We are sorry to disappoint you. Would you like us to put you on our waiting list?
+
+Best wishes,
+
+M. A. Nager
+]
+
+[[Join the waiting list - this is the only venue that will work for you-&gt;Eternal waiting list]]
+[[Say thanks but no thanks, and go back to choosing venues-&gt;Choosing a venue]]</tw-passagedata><tw-passagedata pid="8" name="Inn-Between" tags="" position="239,540" size="100,100">(set: $gems to $gems - 500)
+
+Double-click this passage to edit it.
+
+[[Go to end screen-&gt;End screen]]</tw-passagedata><tw-passagedata pid="9" name="Barebones Barn" tags="" position="389,540" size="100,100">(set: $gems to $gems - 100)
+
+Double-click this passage to edit it.
+
+[[Go to end screen-&gt;End screen]]</tw-passagedata><tw-passagedata pid="10" name="Harmony Castle" tags="" position="108,545" size="100,100">(set: $gems to $gems - 1500)
+
+
+[[Go to end screen-&gt;End screen]]</tw-passagedata><tw-passagedata pid="11" name="End screen" tags="" position="108,695" size="100,100">Congratulations, $name. You ran an amazing event!
+
+Total attendees: $attendees
+Remaining gems: $gems</tw-passagedata></tw-storydata>
