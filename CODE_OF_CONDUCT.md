@@ -1,3 +1,7 @@
+# tl;dr version
+
+Be welcoming, kind and considerate; think twice; imagine yourself on the receiving end of your comment 
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge
@@ -22,6 +26,7 @@ include:
 
 Examples of unacceptable behavior by participants include:
 
+* Sexist, racist, and other exclusionary language.
 * The use of sexualized language or imagery and unwelcome sexual attention or
  advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
