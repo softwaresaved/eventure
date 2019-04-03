@@ -29,7 +29,7 @@ Please contribute/comment!
   
   
 ## Phase III: Complete full eventure ##
-- Complete the original Eventure: a player can have gain full insight into organising an inclusive event through game play
+- [ ] Complete the original Eventure: a player can have gain full insight into organising an inclusive event through game play
 - Expand community:
   - [ ] Get one external Eventure repository (someone cloning this framework to plan their own event)
   - [ ] Continual feedback and discussions (via issues?)
