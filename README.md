@@ -4,7 +4,7 @@ Organising a research event can often feel like a quest. You have to journey to 
 
 Eventure is a piece of interactive fiction that takes you, the ~event organiser~ eventurer, on a journey to run the best event you can, levelling up your knowledge on the best practice for inclusive events.
 
-**Our first in-process eventure is live at [./choosingavenue.html](./choosingavenue.html).**
+**Our first in-process eventure is live at [Once Upon A Time](./stories/onceuponatime.html).**
 
 
 ## Acknowledgements
