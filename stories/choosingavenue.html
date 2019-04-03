@@ -12,7 +12,7 @@
 <tw-story></tw-story>
 
 <tw-storydata name="choosingavenue" startnode="1" creator="Twine" creator-version="2.2.1" ifid="FFF91F05-8C74-469E-8D08-F5286EC1EBEE" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">* {
-  font-family: Myriad Web, sans;
+  font-family: sans;
 }
 
 body {
@@ -34,15 +34,15 @@ tw-passage {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 6pt;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript">
 
-
-
-</script><tw-passagedata pid="1" name="Contacting the star venue" tags="" position="274,90" size="100,100">Your colleague tells you about a venue that seems to meet all your requirements.
+tw-story[tags~=tumbleweed] {
+  background-image: url("tumbleweed.jpg");
+}
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">//requires jquery</script><tw-passagedata pid="1" name="Contacting the star venue" tags="" position="274,90" size="100,100">Your colleague tells you about a venue that seems to meet all your requirements.
 [[Ring their event manager-&gt;Star Venue Unavailable]]</tw-passagedata><tw-passagedata pid="2" name="Star Venue Unavailable" tags="" position="274,240" size="100,100">You listen morosely on the phone as the venue tells you that they are fully booked for the next two years. They suggest going on a waitlist.
 
 [[Join the waiting list - this is the only venue that will work for you-&gt;Eternal waiting list]]
-[[Say thanks but no thanks, and go back to choosing venues-&gt;Choosing a venue]]</tw-passagedata><tw-passagedata pid="3" name="Eternal waiting list" tags="" position="199,390" size="100,100">You wait by the phone for months, but they never call back.
+[[Say thanks but no thanks, and go back to choosing venues-&gt;Choosing a venue]]</tw-passagedata><tw-passagedata pid="3" name="Eternal waiting list" tags="tumbleweed" position="199,390" size="100,100">You wait by the phone for months, but they never call back.
 
 You miss the window for advertising your event and have to run it again the next year.
 
