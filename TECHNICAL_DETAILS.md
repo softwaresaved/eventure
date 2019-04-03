@@ -17,7 +17,7 @@
 
 We currently use the HTML Twine format for our eventures. This format may
 create challenges for git-based merges, in which case we suggest using the
-[tweego]() program to:
+[tweego](https://www.motoslave.net/tweego/) program to:
 
 1. Convert conflicting HTML files to twee format,
 2. Merge the twee files (resolving conflicts with a text editor if needed),
