@@ -10,7 +10,7 @@ Eventure is a piece of interactive fiction that takes you, the ~event organiser~
 - contributing to a recurring event, and hoping to increase inclusivity?
 - an experienced organiser, and are hoping to share your knowledge/experience?
 - a researcher/enthusiast in inclusivity and diversity hoping to improve the way that information is shared/consumed in this field?
-- a gamer
+- an interactive story/game lover?
 
 ## Why interactive fiction?
 
